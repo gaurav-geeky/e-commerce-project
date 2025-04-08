@@ -1,0 +1,92 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+} 
+
+header { 
+    width: 100%;       
+    
+} 
+
+                                        /* nav1 */
+#nav1 {  
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 5px 0px; 
+    font-size: 20px; 
+    background: rgb(240, 239, 239);  
+} 
+                                        /* nav2 */
+#nav2 { 
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding: 5px 0px; 
+}  
+#nav2 #logo { 
+    font-size: 30px; 
+    /* border: 1px solid red;  */
+    color: #3671d9;
+    margin-left: 10px; 
+    font-weight: bolder; 
+}
+#nav2 #find { 
+    display: flex;
+    /* border: 1px solid blue;  */
+    width: 70%; 
+    justify-content: space-between; 
+    font-size: 20px;
+} 
+#nav2 #find .prosearch { 
+    width: 500px; 
+    height: 20px;
+}
+                                        /* nav3 */
+#nav3 { 
+    width: 100%;  
+    padding: 5px 0px; 
+    font-size: 20px; 
+    background: rgb(240, 239, 239);  
+} 
+#nav3 #form2 { 
+  display: flex;
+  justify-content: space-around;
+}
+#nav3 #form2 .navpro { 
+    background: rgb(191, 224, 246); 
+    width: 100px; 
+    font-size: 15px; 
+    border-radius: 10%; 
+}
+
+
+
+
+
+
+
+
+
+/* 
+#books3 #event {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 400px);
+    overflow-x: scroll;
+    scrollbar-width: none;
+    align-content: center;
+    align-items: center;
+
+}
+
+#books3 #event .org {
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    text-align: center;
+    background: rgb(150, 233, 150);
+    font-size: 20px;
+    padding: 20px;
+} */
