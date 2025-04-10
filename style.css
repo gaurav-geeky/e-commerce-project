@@ -1,6 +1,7 @@
 * { 
     margin: 0px; 
     padding: 0px; 
+    box-sizing: border-box;  
 } 
 
 header { 
@@ -44,7 +45,17 @@ header {
     border: none;
 }          
 #nav2 #find #searchpro { 
-    background: rgb(178, 201, 245);
+    background: rgb(178, 201, 245); 
+    padding: 2px;
+    border-radius: 5px;
+} 
+#nav2 #find div a { 
+    text-decoration: none; 
+    color: black; 
+} 
+#nav2 #logo a { 
+    text-decoration: none; 
+    color: rgb(47, 110, 229);
 }
                                         /* nav3 */
 #nav3 { 
@@ -61,10 +72,10 @@ header {
     background: rgb(191, 224, 246); 
     width: 100px; 
     font-size: 15px; 
-    border-radius: 10%; 
-}
-                                        /* index body 1 */ 
-
+    border-radius: 10px; 
+} 
+                            /* index start */
+                                                /* index body 1 start */ 
 #indbody1 { 
     width: 100%; 
     height: 550px; 
@@ -93,14 +104,208 @@ header {
     scrollbar-width: none;
 } 
 #indbody1 .scroll .img { 
-    padding: 0px 20px; 
+    padding: 0px 10px; 
     background: white; 
 }
 #indbody1 .scroll .img img { 
     width: 1024px; 
     height: 510px;  
 }
+                                        /* index body 1 end   index body 2 start*/
 
+#indbody2 { 
+    width: 100%; 
+    height: auto; 
+}
+#indbody2 #span { 
+    font-size: 20px; 
+    padding: 5px;
+    font-family: 'Times New Roman'; 
+    margin-left: 20px; 
+    color: rgb(47, 110, 229);
+    font-weight: bolder; 
+    text-decoration: underline solid; 
+} 
+
+#indbody2 #gym { 
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    justify-content: space-around; 
+    align-items: center; 
+} 
+#indbody2 #gym .weight { 
+    width: 300px; 
+    height: 450px; 
+    margin: 10px 0px; 
+    border: 1px solid rgb(237, 237, 237); 
+}
+#indbody2 #gym .weight img { 
+    width: 100%;  
+    height: 70%;  
+}
+#indbody2 #gym .weight h6 { 
+    font-size: 15px; 
+    background: rgb(250, 249, 249); 
+} 
+#indbody2 #gym .weight h3 { 
+    color: red; 
+}
+                                            /* index body 2 end */
+                    /* footer 1 start */ 
+#indfoot1 { 
+    width: 100%; 
+    height: auto; 
+    background-color: rgb(47, 110, 229); 
+    color: white; 
+} 
+
+                                  /* inside footer */
+#indfoot1 #foot { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 30px; 
+} 
+#indfoot1 #foot .contact img{ 
+    width: 150px; 
+    height: 45px; 
+}  
+#foot .category,  #foot .service { 
+    line-height: 30px;
+}  
+#foot .category h4 ,  #foot .service h4 { 
+    text-decoration: underline solid;
+} 
+
+#indfoot1 #foot ul { 
+    margin-left: 22px; 
+} 
+#indfoot1 .copyright { 
+    text-align: center; 
+    padding: 10px; 
+}
+
+                                /* font increase */
+#indfoot1 #foot h4 { 
+    font-size: 18px;
+}
+#indfoot1 #foot h1 { 
+    font-size: 35px;
+}
+                                /* index end */
+                                                                    /* sign in start */ 
+                    /* sign in body 1 start */  
+#signbody1 { 
+    width: 100%;
+    height: auto; 
+    background: rgb(178, 201, 245); 
+}
+.signin {  
+    height: auto;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    
+} 
+                                /* div 1 of sign in */
+.signin #log1 { 
+    height: 70vh;
+    width: 25%; 
+    text-align: start; 
+    padding: 10px 10px;
+    background: rgb(130, 208, 244); 
+    border-radius: 20px;
+}  
+.signin #log1 p { 
+    font-size: 25px;
+} 
+.signin #log1 span { 
+    font-size: 18px;
+} 
+.signin #log1 img { 
+    width: 280px;
+    height: 280px;
+} 
+                                                    /* div 2 of sign in */
+                    /* sign in form start */
+.signin #sign { 
+    height: 70vh;
+    width: 30%; 
+    text-align: start; 
+    padding: 10px 20px;
+    background: white; 
+    border-radius: 20px; 
+}  
+.signin #sign form { 
+    font-size: 20px;
+}
+.signin #sign form div { 
+    line-height: 30px;
+} 
+.signin #sign form input{ 
+    width: 60%;
+    height: 30px;
+    border: none; 
+    border-bottom: 2px solid rgb(47, 110, 229);
+} 
+.signin #sign form #terms { 
+    width: 10%;
+    height: 20px;
+}
+.signin #sign form button { 
+    font-size: 20px; 
+    border-radius: 20px; 
+    width: 100px; 
+    margin: 10px 0px; 
+    padding: 3px;
+    background: rgb(130, 208, 244);  
+} 
+.signin #sign legend {
+    font-size: 25px;
+    margin-left: 70px;
+}
+                                                                    /* sign in end */  
+                                    /* cart start */ 
+#cartbody1 { 
+    width: 100%;
+    height: auto; 
+    background: rgb(231, 245, 255);  
+    /* border: 1px solid blue;  */
+    padding: 10px;
+} 
+#cartbody1 h2 { 
+    text-align: end; 
+}
+#cartbody1 h2 span { 
+    color: rgb(226, 16, 205); 
+}   
+#cartbody1 #addr { 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid grey;  
+    margin: 0px 20%; 
+    padding: 5px;
+    gap: 20px;  
+    border-radius: 10px;
+}   
+#cartbody1 #addr div { 
+    font-size: 20px; 
+    padding: 3px 0px; 
+}    
+#cartbody1 #addr p { 
+    border: 1px solid grey; 
+    margin-bottom: 10px; 
+    padding: 0px 8px;
+    border-radius: 10px;
+}     
+#cartbody1 #addr h3 { 
+    border: 1px solid grey;  
+    border-radius: 5px;
+    padding: 0px 10px; 
+    color: rgb(226, 16, 205); 
+}
 
 
 
