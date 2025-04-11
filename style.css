@@ -258,8 +258,8 @@ header {
     border-radius: 20px;
     border: 2px solid black;
     position: absolute;
-    top: 22%;
-    right: 38%;
+    top: 24%;
+    right: 39%;
 }
 
 #log1 p {
@@ -673,7 +673,6 @@ button {
     header #nav1, header #nav2, header #nav3 { 
         flex-direction: column;
     } 
-
 
     /*          bar and checkbox    */
     #check:checked~header { 
