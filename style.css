@@ -761,11 +761,13 @@ button {
 
     /* Index Body 2 */
     #indbody2 #gym {
-        grid-template-columns: 1fr;
+        grid-template-columns: auto auto;
     }
 
     #indbody2 #gym .weight {
-        width: 90%;
+        width: 90%;  
+        height: auto;
+        margin:  10px 20px; 
     }
 
     /* Footer */
@@ -819,6 +821,8 @@ button {
     #cartbody2 #item3 {
         flex-direction: column;
         width: 95%;
+        height: 90%; 
+        margin: 5px 10px;
     }
 
     #item1 img,
