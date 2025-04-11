@@ -17,7 +17,7 @@
     <header>
 
         <nav id="nav1">
-            <div> Welcome to worldwide Megamart! &emsp; </div>
+            <div> Welcome to worldwide SportsMart! &emsp; </div>
 
             <p> Deliver to Pin-423501 &nbsp;| &nbsp;
                 <i class="fa-solid fa-truck" style="color: #3671d9;"></i> Track your Order &nbsp;| &nbsp;
@@ -28,7 +28,7 @@
         <nav id="nav2">
 
             <div id="logo">
-                <a href="index.html"> MegaMart </a>
+                <a href="index.html"> SportsMart </a>
             </div>
 
             <div id="find">
@@ -121,24 +121,20 @@
             </form>
         </nav>
     </header>
-                                <!-- header end     main start -->
+    <!-- header end     main start -->
 
     <main>
         <section id="signbody1">
 
             <div class="signin">
 
-                <div id="log1">
-                    <p>Welcome to <br> <br> MegaMart</p> <br> <br>
-                    <span>Get access to your Orders, Wishlist and Recommendations </span> <br> <br> <br>
-                    <img src="index image/login.png" alt="pic">
-                </div>
-
                 <div id="sign">
                     <fieldset>
                         <legend>Create your account</legend>
 
-                        <form action="">
+                        <form action="https://api.web3forms.com/submit" method="POST"> 
+
+                            <input type="hidden" name="access_key" value="ece50ec7-ee71-4a4f-9cdb-56f2adfcaebf">
                             <div>
                                 <label for="name">Name <br></label>
                                 <input id="name" type="text" placeholder="Enter name" required>
@@ -153,22 +149,80 @@
                             </div>
                             <br> <br>
                             <div>
-                                <input id="terms" type="checkbox" required>
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                                 <label id="check" for="terms"> By signing in I agree with Terms & Conditions</label>
-                            </div>
-
+                            </div> 
                             <button type="submit"> Sign-up </button>
+                            <!-- <input type="submit" required>  -->
                         </form>
 
                     </fieldset>
+
+                    <p> New to SportsMart? Create an account </p>
                 </div>
 
+            </div>  
+            
+            <div id="log1">
+                <p>Welcome to <br> SportsMart?</p>  <br>
+                <span>Get access to your Orders, Wishlist and Recommendations </span>  <br>
+                <img src="index image/login.png" alt="pic">
             </div>
 
         </section>
 
     </main>
+    <!-- footer start -->
     <footer>
+        
+        <section id="indfoot1">
+            <div id="foot">
+                <div class="contact"> <!-- div 1 -->
+                    <h1>SportsMart</h1> <br>
+                    <h4>Contact Us</h4> <br>
+                    <p id="whats"> <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i> Whats App <br>
+                        +1 &nbsp; 908-145-4307
+                    </p> <br> <!-- whatsapp -->
+
+                    <p i="call"> <i class="fa-solid fa-phone" style="color: #ffffff;"></i> Call Us <br>
+                        +1 &nbsp; 908-145-4307
+                    </p> <br> <!-- call us -->
+                    <h4> Download App <br>
+                        <img src="index image/apple.png" alt="pic">
+                        <img src="index image/google.png" alt="pic">
+                    </h4> <!-- download app -->
+                </div>
+
+                <div class="category"> <!-- div 2 -->
+                    <h4>Most Popular Categories</h4> <br>
+                    <ul>
+                        <li>Lowers</li>
+                        <li> Shorts</li>
+                        <li>rubber balls</li>
+                        <li> cricket net</li>
+                        <li> swimming suit</li>
+                        <li>protein powder</li>
+                        <li>weight gainer</li>
+                        <li>snacks & Meals</li>
+                    </ul>
+                </div>
+
+                <div class="service"> <!-- div 3 -->
+                    <h4>Customer Services</h4> <br>
+                    <ul>
+                        <li>About Us</li>
+                        <li> Terms & Conditions</li>
+                        <li>FAQ</li>
+                        <li> Privacy Policy</li>
+                        <li> E-waste Policy</li>
+                        <li>protein powder</li>
+                        <li> Cancellation and Return Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> &copy; 2025 All rights reserved. Shoppers Retail Ltd.</p>
+        </section>
 
     </footer>
 
